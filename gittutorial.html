@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title> How to use Github fluently!</title>
+        <link rel="stylesheet" href="newstyle.css"/>
+    </head>
+    <body>                                       
+        <table width="1100" cellspacing="0" align="center" bgcolor="lightblue">
+            <tr valign="top">
+                <td colspan="2" height="240">
+                    <table width="1100"cellspacing="2" align="center" bgcolor="white">
+                        <tr>
+                            <td width="420"> <img src="https://www.freecodecamp.org/news/content/images/2019/11/cover-pic.jpeg" width="280" height="150"/></td>
+                            <td>
+                                <h1>
+                                    <font color="darkorange" size="8">MASTER GIT AND GITHUB</font>
+                                </h1>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                
+            </tr>
+            <tr>
+                <td colspan="2"valign="top" font="Helvetica">
+                    <h1>1. Overview of git and github</h1>
+                    <pre>
+                
+                                 <img src="https://csharpcorner-mindcrackerinc.netdna-ssl.com/article/git-and-github-version-control-local-and-remote-repository/Images/Git%20And%20Github%20Version%20Control06.png" width="500" height="300"/>
+                          <ul>
+        <li>Git is a version control system to keep track of changes to files and projects over time. Git is used for
+managing the changes to a project over time. A project might be just a single file, a handful of files,or
+thousands of files. Those files can be anything from plain text to images or videos.
+
+Because Git is focused on managing changes, it is often used as a collaboration tool allowing people to work
+on the same project at the same time. By tracking their individual changes, Git can bring everything together
+to the final version.
+        </li><li>Github is a website that hosts Git repositories online, making it easier for developers to share code. It allows
+you to work collaboratively with other people around the world, plan your projects and track your work.</li></ul></pre>
+ <h1>2.How to install Git and Github</h1>
+        <ul>
+            <li>You need to visit <a href="https://git-scm.com/downloads" target="_blank">Git website</a> to download Git and choose your suitable operating system.</li>
+            <li>You need to sign up your own account <a href="https://github.com/" target="_blank">here.</a></li>
+        </ul>
+<h1>3. Some basic commands</h1>  
+        <ul>
+            <li>Config command: The git config command is a convenience function that is used to set Git configuration values on a global or local project level. It sets the author name and email address respectively to be used with your commits.<br/>
+                Ex: git config -global user.email "your email"<br/>
+                git confit -global user.name "your user name"     
+            </li>
+            <li>Add command: This command adds a file to the staging area.<br/>
+                Ex: git add [file]</li>
+                <li>Commit command: This command records or snapshots the file permanently in the version history.<br/>
+                    Ex: git commit -m "the commmit message"
+                </li>
+                <li>Push command: This command sends the committed changes of master branch to your remote repository.<br/>
+                    Ex: git push [variable name] master
+                </li>
+        </ul>
+<h1>4. How to resolve conflicts</h1>
+            <img src="https://user-images.githubusercontent.com/10404068/49666370-bd765300-fa0c-11e8-9161-aa377145e2c7.png" width="530" height="330"/>
+        <ul>
+            <li>When a conflict occurs, you can merge branches manually. Let's merge the branch that you're working on and which is the target branch for the pull request to be pulled.</li>
+            <li>There are 3 steps to resolve conflict:<br/>
+                - Pull master branch.<br/>
+                - Resolve the conflict locally.<br/>
+                - Commit and push the modified source code again.</li>
+        </ul>
+        <h1>5. Branch</h1>
+            <img src="https://guides.github.com/activities/hello-world/branching.png" width="600" height="200"/>
+        <ul>
+            <li>In the latest version of Git, you can simply create a branch from the remote repository on your local repository by assigning an existing branch name in the remote repository when calling Git checkout.<br/>
+            Ex: git checkout [branch]</li>
+            <li>If you are on an older version of Git, you can do so with the command below.<br/>
+            Ex: git branch [branchname] origin/[branch]</li>
+        </ul>
+                 </td>
+                
+            </tr>
+
+        </table> 
+                
+   
+      
+    </body>
+</html>
